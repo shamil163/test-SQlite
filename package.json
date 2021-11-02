@@ -1,0 +1,28 @@
+{
+  "name": "test-SQlite",
+  "version": "1.0.0",
+  "description": "test-SQlite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shamil163/test-SQlite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shamil163/test-SQlite/issues"
+  },
+  "homepage": "https://github.com/shamil163/test-SQlite#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "sequelize": "^6.8.0",
+    "sequelize-cli": "^6.2.0",
+    "sqlite3": "^5.0.2"
+  }
+}
