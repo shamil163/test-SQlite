@@ -76,9 +76,13 @@ router.post("/search", async (req, res) => {
         money: Number(moneySearch),
       },
     });
-    res.json(books);
-  } catch (error) {
+    if(books.length) {
+      res.json(books);
+
+    }
     res.send("книг нет");
+  } catch (error) {
+    console.log(error);
   }
 });
 
